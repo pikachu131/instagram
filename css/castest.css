@@ -1,0 +1,40 @@
+.boxcontainer{
+
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+.bluebox{
+
+	box-sizing: border-box;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+
+	background-color: blue;
+	color: blue;
+	width: 100px;
+	height: 100px;
+}
+
+.greenbox{
+
+	background-color: green;
+	position: relative;
+	top: 50px;
+	left: 20px;
+	color: green;
+	width: 100px;
+	height: 100px;
+}
+
+.redbox{
+
+	background-color: red;
+	position: absolute;
+	color: red;
+	width: 100px;
+	height: 100px;
+}
