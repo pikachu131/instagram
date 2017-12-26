@@ -1,0 +1,36 @@
+.maintitle{
+	color: #999;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.company_title{
+
+
+}
+
+.companylogo_container{
+	background-color: #F4F3F9;
+	flex-wrap: wrap;
+
+	max-width: 1200px;
+	min-width: 1200px
+
+}
+
+.companylogo_box{
+	display: flex;
+	align-items: flex-end;
+	padding: 70px 0 35px
+}
+
+.compnay_logo{
+	align-items: center;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+
+}

@@ -6,7 +6,11 @@
 		<meta description = "Pikagram">
 		<link rel="stylesheet" href="css/style.css">
 		<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script src="js/app.js"></script>
 	</head>
 
 	<body>
@@ -16,7 +20,7 @@
 		<div class="navigation__container">
 
 		<!-- Logo -->
-		
+
 			
 			<div class="navigation__column">
 				
@@ -52,7 +56,7 @@
 				
 				<!-- Explore -->
 
-				<a href="explore.html">
+				<a href="explore.html" class="explore_link">
 					<img
 					src="images/explore.png"
 					alt="logo_image">
@@ -60,7 +64,7 @@
 				
 				<!-- Likes -->
 				
-				<a href="likes.html">
+				<a href="likes.html" class="explore_link">
 					<img
 					src="images/likes.png"
 					alt="logo_image">
@@ -69,7 +73,7 @@
 
 				<!-- Profile -->
 
-				<a href="profile.html">
+				<a href="profile.html" class="explore_link">
 					<img
 					src="images/profile.png"
 					alt="logo_image">
@@ -79,80 +83,77 @@
 		</div>
 
 	<!-- Photo Display -->
-<main class="feed_container">
-	
-	<!-- Author info -->
+	<div class="overall_container">
+		
+		<div class="feed_container">
+			
+			<!-- Author info -->
 
-		<div class="author_container">
-			<div class="author_container">
-				<img
-				src="images/pikachu.png">
-				<div class="author_name">
-				pikachu
+				<div class="author_container">
+					<div class="author_profile">
+						<img class="author_avatar" 
+						src="images/pikachu.png">
+						<div class="author_name">
+						pikachu
+						</div>
+					</div>
 				</div>
-			</div>
+
+			<!-- Main Image -->
+			
+				<div>
+					<img class="insta_image" src="images/pikachu_image.jpg">
+				</div>
+
+			<!-- Contents Container -->
+
+				<div class="contents_container">
+				
+					<div class="action_container">
+					<i class="fa heart fa-heart-o"></i>
+					<i class="fa fa-comment-o"></i>
+					<i class="fa fa-bookmark-o"></i>
+					</div>
+				
+					<!-- Like Numeric -->
+					<span class="likes_count">
+						<span class="likes_number">
+						917
+						</span>
+						Likes
+					</span>
+
+
+					<!-- Comment -->
+					<ul class="comment_container">
+						<li class="comment_content">
+							<span class="comment_author">
+							Metamong
+							</span> So cute!
+						</li>
+
+						<li class="comment_content">
+							<span class="comment_author">
+							Pikachu
+							</span> Thank you :)
+						</li>
+					</ul>
+
+					<!-- uploaded time -->
+					<span class="contents_time">13hours ago</span>
+
+
+					<!-- adding comment -->
+					<div class="photo__addcomment_container">
+						<input class="photo_addcomment_area" type="text" placeholder="Add comment here...">
+						<i class="fa fa-ellipsis-h"></i>
+					</div>	
+
+				</div>
+
 		</div>
 
-	<!-- Main Image -->
-	
-		<div>
-			<img src="images/pikachu_image.jpg">
-		</div>
-
-	<!-- Contents Container -->
-
-		<div class="contents_container">
-		
-			<div class="action_container">
-			<i class="fa fa-heart-o"></i>
-			<i class="fa fa-comment-o"></i>
-			<i class="fa fa-bookmark-o"></i>
-			</div>
-		
-			<!-- Like Numeric -->
-			<span class="likes_count">
-				<span class="likes_number">
-				917
-				</span>
-				Likes
-			</span>
-
-
-			<!-- Comment -->
-			<ul class="comment_container">
-				<li class="comment_content">
-					<span class="comment_author">
-					Metamong
-					</span> So cute!
-				</li>
-
-				<li class="comment_content">
-					<span class="comment_author">
-					Pikachu
-					</span> Thank you :)
-				</li>
-			</ul>
-
-			<!-- uploaded time -->
-			<span class="contnets_time">13hours ago</span>
-
-
-			<!-- adding comment -->
-			<div class="photo__addcomment-container">
-				<input type="text" placeholder="Add comment here...">
-				<i class="fa fa-ellipsis-h"></i>
-			</div>	
-
-		</div>
-
-
-
-		<div></div>
-		<div></div>
-
-
-
-</main>
+	</div>
 
 
 
